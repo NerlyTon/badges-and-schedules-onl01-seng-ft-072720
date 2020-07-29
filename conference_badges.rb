@@ -13,8 +13,8 @@ end
 def assign_rooms(attendees)
   new_array = []
   counter = 0
-  attendees.each_with_index do |name|
- new_array.push ("Hello, #{name}! You'll be assigned to room #{name.length}!")
+  attendees.each_with_index
+ new_array.push ("Hello, #{attendees}! You'll be assigned to room #{attendees.length}!")
  counter += 1
  return new_array
 end
