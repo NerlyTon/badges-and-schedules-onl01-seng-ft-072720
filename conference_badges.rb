@@ -23,5 +23,6 @@ def printer(attendees)
   new_list = []
   printer.each do |assignment|
     new_list << #{assignment}
+    puts new_list
   end
 end
