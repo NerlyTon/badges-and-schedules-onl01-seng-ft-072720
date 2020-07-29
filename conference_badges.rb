@@ -4,5 +4,5 @@ def badge_maker(name)
     puts "Hello, my name is #{name}."
     count += 1
   end
-  badge_maker
+  badge_maker(name)
 end
