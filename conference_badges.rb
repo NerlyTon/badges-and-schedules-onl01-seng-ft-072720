@@ -11,6 +11,7 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
+  counter = 0
   attendees.each_with_index {}
  return "Hello, #{attendees}! You'll be assigned to room #{attendees.length}!"
 end
