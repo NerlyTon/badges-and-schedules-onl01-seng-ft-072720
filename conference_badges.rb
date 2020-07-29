@@ -14,5 +14,5 @@ def assign_rooms(attendees)
   counter = 0
   attendees.each_with_index {|item, index|}
  return "Hello, #{attendees}! You'll be assigned to room #{attendees.length}!"
- counter 
+ counter += 1
 end
