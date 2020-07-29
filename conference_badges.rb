@@ -17,11 +17,3 @@ def assign_rooms(attendees)
  new_array.push ("Hello, #{attendees}! You'll be assigned to room #{attendees.length}!")
  end
 end
-
-def assign_rooms(attendees)
-  new_array = []
-  counter = 0
-  attendees.each_with_index do |attendee, i|
- 	new_array.push ("Hello, #{attendees}! You'll be assigned to room #{attendees.length}!")
-  end
-end
