@@ -20,7 +20,9 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
+  new_list = []
   printer.each do |assignment|
+    new_list << #{assignment}
     puts #{assign_rooms}
   end
 end
