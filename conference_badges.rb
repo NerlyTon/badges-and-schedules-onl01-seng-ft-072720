@@ -20,6 +20,6 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  printer.each do {print #{new_attendees}, #{new_array}}
+  printer.each do print #{new_attendees}, #{new_array}
   end
 end
